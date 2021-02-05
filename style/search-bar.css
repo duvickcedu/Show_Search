@@ -1,0 +1,35 @@
+#input-wrapper {
+    border: 1px solid black;
+    height: 30px;
+    width: 400px;
+    display: flex;
+    background: white;
+}
+
+#search {
+    padding-left: 10px;
+    border: none;
+    width: 90%;
+    outline: none;
+}
+
+#search-button {
+    outline: none;
+    background-color: white;
+    border: none;
+    width: 10%;
+    height: available;
+}
+
+#search-icon {
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/search.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    cursor: pointer;
+}
